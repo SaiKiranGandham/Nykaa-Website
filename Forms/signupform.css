@@ -20,9 +20,9 @@
     margin-bottom: 10px;
 }
 #myform input{
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
-    border: 0.6px solid grey;
+    border: 0.6px solid hwb(0 46% 53%);
 }
 #gender{
     margin-top: 10px;
@@ -39,7 +39,7 @@
     flex-direction: row;
 }
 #myform textarea{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 #myform button{
     background-color: blue;
