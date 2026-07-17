@@ -1,0 +1,57 @@
+
+#myform{
+    box-shadow: 2px 3px 10px black;
+    border:3px solid orangered;
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+   background-color: white;
+   margin-left: 27%;
+   margin-top: 3%;
+   padding: 30px;
+}
+#Signup{
+    color:skyblue;
+   text-align: center;
+   text-decoration: underline #fffb00;
+} 
+#myform label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#myform input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.6px solid grey;
+}
+#gender{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#myform select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.6pxm solid grey;
+    margin-bottom: 10px;
+}
+#check{
+    display: flex;
+    flex-direction: row;
+}
+#myform textarea{
+    margin-bottom: 20px;
+}
+#myform button{
+    background-color: blue;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    padding:10px;
+    font-size:10px;
+}
+#myform Button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
