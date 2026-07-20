@@ -1,0 +1,153 @@
+*{
+    font-family: sans-serif;
+    margin: 0%;
+}
+
+#navbar {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color:black;
+    font-weight: 10px;
+}
+
+#navbar input {
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#navbar button {
+    background-color: #E80071;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#Home {
+    background-image: url(https://images-static.nykaa.com/uploads/9ff20482-b3a3-47a0-a77e-20a21ebed482.gif);
+    width:vw;
+    height: 80vh;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content: top;
+    align-items:center;
+    text-align: center;
+
+}
+
+#Home button {
+    background-color: #E80071;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+#homeh1 {
+    color: white;
+    text-shadow: 2px 3px 5px black;
+    font-size:60px;
+    margin-bottom: 20px;
+}
+#home button {
+    margin-left: 60%; 
+}
+#about {
+    display: flex;
+    flex-direction: row;
+}
+#left h1 {
+    padding: 30px;
+}
+#left h1 {
+    color:#E80071;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#left button {
+     margin-top: 30px;
+    margin-bottom: 30px;
+     background-color: white;
+    color:#E80071;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+#left button:hover {
+    background-color:#E80071;
+    color: white;
+}
+#products{
+   display: felx;
+   flex-direction: row;
+   justify-self: space-around;
+   padding: 20px;
+   flex-wrap: wrap;
+}
+#products img{
+    width:19%;
+    border-radius: 20px;
+    margin-top:20px;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 60px;
+}
+#group{
+    display: flex;
+    flex-direction: row;
+}
+#group img{
+    margin-right: 20px;
+}
+#internalgroup{
+    display: flex;
+    flex-direction: column;
+}
+#bottom-footer{
+    background-color:#E80071;
+    text-align:center;
+    padding:25px 15px;
+}
+
+#footer-links{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+    margin-bottom:15px;
+}
+
+#footer-links a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:16px;
+}
+
+#footer-links a:hover{
+    text-decoration:underline;
+}
+
+#bottom-footer p{
+    color:white;
+    font-size:15px;
+}
