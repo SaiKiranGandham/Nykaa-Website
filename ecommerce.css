@@ -36,8 +36,8 @@
 
 #Home {
     background-image: url(https://images-static.nykaa.com/uploads/9ff20482-b3a3-47a0-a77e-20a21ebed482.gif);
-    width:110vw;
-    height: 90vh;
+    width:100vw;
+    height: 80vh;
     background-size:cover;
     background-position:center;
     display:flex;
