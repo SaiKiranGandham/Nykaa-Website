@@ -36,15 +36,16 @@
 
 #Home {
     background-image: url(https://images-static.nykaa.com/uploads/9ff20482-b3a3-47a0-a77e-20a21ebed482.gif);
-    width:vw;
-    height: 80vh;
+    width:110vw;
+    height: 90vh;
     background-size:cover;
     background-position:center;
     display:flex;
     flex-direction:column;
-    justify-content: top;
+    justify-content: flex-start;
     align-items:center;
     text-align: center;
+    overflow: hidden;
 
 }
 
